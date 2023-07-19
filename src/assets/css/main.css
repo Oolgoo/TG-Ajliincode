@@ -1,0 +1,72 @@
+.section-division {
+    background: url('assets/img/dashboard/wave-02.png') no-repeat center 0, #1d2839;
+}
+
+.mainLogo {
+    font-weight: 900;
+    font-size: 7rem;
+    color: transparent;
+    background: linear-gradient(86deg, rgba(0, 0, 0, 1) 0%, rgba(88, 188, 181, 1) 75%, rgba(126, 193, 188, 1) 100%);
+    -webkit-background-clip: text;
+    font-family: 'GmarketBold';
+}
+
+.mainLogo2 {
+    font-weight: 900;
+    font-size: 5rem;
+    color: transparent;
+    background: linear-gradient(86deg, rgba(0, 0, 0, 1) 0%, rgba(88, 188, 181, 1) 75%, rgba(126, 193, 188, 1) 100%);
+    -webkit-background-clip: text;
+    font-family: 'GmarketBold';
+}
+
+.section-foot {
+    background: linear-gradient(180deg, rgba(29, 40, 57, 1) 0%, rgba(167, 171, 178, 1) 58%, rgba(255, 255, 255, 1) 100%);
+}
+
+.back-primary {
+    background-color: #1d2839;
+}
+
+.color-primary {
+    color: #1d2839;
+}
+
+/* main notice carousel */
+.changeNotice {
+    position: relative;
+    animation: rotate 6s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.changeNoticeOuter {
+    margin-top: 1px;
+    overflow: hidden;
+    display: block;
+    height: 1.7rem
+}
+
+.noticeItem {
+    display: block;
+    padding-top:0.4rem;
+    padding-bottom:0.4rem;
+}
+
+@keyframes rotate {
+
+    0%,
+    15%,
+    100% {
+        transform: translateY(-0.2rem);
+    }
+
+    40%,
+    50% {
+        transform: translateY(-2.2rem);
+    }
+
+    70%,
+    80% {
+        transform: translateY(-4.2rem);
+    }
+}

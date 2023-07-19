@@ -1,0 +1,25 @@
+// YYYY-MM-DD HH:mm:ss
+export const DATETIME_SECONDS_FORMAT = 'YYYY-MM-DD HH:mm:ss';
+
+// YYYY-MM-DD HH:mm
+export const DATETIME_FORMAT = 'YYYY-MM-DD HH:mm';
+
+// YYYY-MM-DD
+export const DATE_FORMAT = 'YYYY-MM-DD';
+
+export const DATE_FORMAT_V2 = 'YYYYMMDD';
+
+// YYYY-MM-DD HH:mm:ss
+export const CLIENT_DATE_TIME_FORMAT = 'YYYY-MM-DD HH:mm:ss';
+
+// YYYY-MM-DD HH:mm
+export const CLIENT_MIDI_DATE_TIME_FORMAT = 'YYYY-MM-DD HH:mm';
+
+// YYYY-MM-DD
+export const CLIENT_DATE_FORMAT = 'YYYY-MM-DD';
+
+export const OLD_LOCAL_DATE_TIME_FORMAT_STARTED_UTC =
+  'YYYY-MM-DDT15:00:00.[000Z]';
+
+export const OLD_LOCAL_DATE_TIME_FORMAT_ENDED_UTC =
+  'YYYY-MM-DDT14:59:59.[999Z]';

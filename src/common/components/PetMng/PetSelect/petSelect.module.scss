@@ -1,0 +1,32 @@
+.default {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 150px;
+    height: 12rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    & .cardImage {
+        height: 80px;
+        width: 80px;
+        border-radius: 5px;
+    }
+
+    & .petName {
+        width: 70px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #FBE7A2;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+
+    & .icon {
+        font-size: 2rem;
+        color: #F7A95B;
+        margin-top: 4rem;
+    }
+}

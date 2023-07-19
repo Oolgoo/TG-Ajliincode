@@ -1,0 +1,40 @@
+{
+  "parser": "@typescript-eslint/parser", //typscript 파싱을위한 parser
+  "root": true, //현재 eslintrc 파일을 기준으로 규칙을 적용.
+  "extends": [
+    // 추가적인 규칙들 적용
+    "plugin:@typescript-eslint/recommended", //eslint typescript 규칙.
+    "prettier/@typescript-eslint" //prettier 규칙과 충돌하는 @typescript-eslint/eslint-plugin 규칙 비활성화
+  ],
+  "plugins": ["prettier", "prefer-arrow"], //prettier 플러그인 추가
+  "parserOptions": {
+    //파싱 옵션
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      //사용하려는 추가 언어 jsx
+      "tsx": true
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/ban-types": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "prefer-arrow/prefer-arrow-functions": [
+      "error",
+      {
+        "disallowPrototype": false,
+        "singleReturnOnly": false,
+        "classPropertiesAllowed": false
+      }
+    ], // arrow function 만 허용
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/display-name": "off"
+  },
+  "ignorePatterns": ["node_modules/"],
+  "settings": {
+    "react": {
+      "version": "detect" // 프로젝트 react 버저닝 확인
+    }
+  }
+}

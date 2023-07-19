@@ -1,0 +1,44 @@
+.termsItemDiv{
+    width: 50vw;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.termsItemDivSmall{
+    width: 80vw;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.termsItemMore{
+    text-decoration: underline;
+    text-decoration-color: #a3a3a3;
+    font-size: 0.9em;
+    color: #a3a3a3;
+    cursor: pointer;
+}
+
+.signUpInfoDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.signUpInfoLabel{
+    font-size: 1.3em;
+    padding-top: 10px;
+} 
+
+.signUpInfoLabelMini{
+    font-size: 1.2em;
+    margin-right: 20px;
+    padding-top: 10px;
+} 
+
+.signUpInfoNotice{
+    color: #8b8b8b;
+    margin-top: 10px;
+}
